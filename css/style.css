@@ -1,0 +1,42 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 13vh 100vh 49vh;
+    grid-template-areas: "h h"
+                         "s s"
+                         "f f";
+}
+
+header{
+    background-color: black;
+    grid-area: h;
+
+}
+#top{
+    background-color: white;
+    height: 50%;
+}
+
+#menu{
+    background-color: pink;
+    height: 50%;
+}
+
+section{
+    background-color: blue;
+    grid-area: f;
+
+}
+
+footer{
+    background-color: blueviolet;
+    grid-area: s;
+
+}

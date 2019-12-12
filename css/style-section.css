@@ -1,0 +1,379 @@
+.grid-Center{
+    display: grid;
+    justify-self: center;
+    grid-auto-flow: column;
+}
+
+.dimenssao{
+    width: 1248px;
+    height: auto;
+}
+
+.alinhaCentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinhaCentroEsq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fazBolinha{
+    border: 2px solid black;
+    border-radius: 9999px;
+    text-align: center;
+}
+
+.corFonte{
+    color:#1087FF;
+}
+
+ a:hover {
+    color:#1087FF;
+}
+
+.fonte{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.corSubtitulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 25px;
+    color: grey ;
+}
+.corTitulo{
+    margin: 0;
+    padding: 0px 0px 0px 25px;
+    font-weight: bold;
+    color: #575757;;
+}
+
+.corSubtitulo2{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 0px;
+    color: grey ;
+    margin: 5px 0px 0px 0px;
+}
+.corTitulo2{
+    margin: 0;
+    padding: 0px 30px 0px 0px;
+    font-weight: bold;
+}
+
+/* ___________________________ Linha 1 __________________________ */
+
+.linha1{
+    display: grid;
+    grid-template-columns: 11fr 9fr;
+    grid-template-rows: 45vh;
+    grid-template-areas: "cl1 cl2";
+    grid-column-gap: 21px;
+    margin-bottom: 18px;
+}
+
+#l1-coluna1{
+    padding-top: 23px;
+    padding-left: 10px;
+    grid-area: cl1;
+}
+
+#tipoManchete{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:12pt;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+#titulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:24pt;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
+
+#imagemAjuste{
+    width: 705px;
+    height: 285px;
+    border-radius: 8px;
+}
+
+#l1-coluna2{
+    padding-top: 25px;
+    grid-area: cl2;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5px;
+
+}
+
+.sublinha{
+    height: 110px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.imagem{
+    width:33%;
+    border-radius: 10px;    
+}
+.imagemL1{
+    width:100%;
+    height: 100%;
+}
+.texto{
+    width:59%;
+}
+.tituloMateria{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14pt;
+    padding: 17px 0px 5px 26px ;
+    margin: 0;
+}
+.resumoMateria{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15pt;
+    font-weight: bold;
+    padding: 0px 0px 0px 26px ;
+    margin: 0;
+}
+/* ___________________________ Linha 2 __________________________ */
+
+.linha2{
+    display: grid;
+    grid-template-columns: 38fr 1fr 1fr 1fr;
+    grid-template-rows: 3vh;
+    grid-template-areas: "2cl1 2cl2 2cl3 2cl4";
+    grid-column-gap: 6px;
+    padding-right: 12px;
+    margin-bottom: 20px;
+}
+
+#l2-coluna1{
+    width: auto;
+    grid-area: 2cl1;
+}
+
+#l2-coluna2{
+    border-color:#1087FF;
+    width: auto;
+    grid-area: 2cl2;
+    font-size:10pt;
+    color:#1087FF;
+}
+
+#corzinha{
+    color: #EDF0F2 ;
+}
+
+#l2-coluna3{
+    border-color:#EDF0F2;
+    width: auto;
+    grid-area: 2cl3;    
+    font-size:10pt;
+}
+
+#l2-coluna4{
+    border-color:#EDF0F2;
+    width: auto;
+    grid-area: 2cl4;
+    font-size:10pt;
+}
+
+hr{
+    margin: 12px 11px 0px 0px;
+    border: 1px solid #EDF0F2;
+}
+
+
+
+/* ___________________________ Linha 3 __________________________ */
+
+.linha3{
+    display: grid;
+    grid-template-columns: 22fr 11fr ;
+    grid-template-rows: auto auto;
+    grid-template-areas: "3cl1 3cl2";
+    grid-column-gap: 30px;
+    padding-left: 11px;
+}
+
+#l3-coluna1{
+    grid-area: 3cl1;
+}
+
+#opcoes{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.btnS{
+    padding: 0px 15px 0px 15px;
+    height: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background: none;
+    border:0;
+    color: rgb(161, 161, 161);
+
+}
+.btnBack{
+    background: #F1F5F8;
+    color: rgb(80, 80, 80);
+}
+.margem{
+    margin-right: 16px;
+}
+
+#textoOp{
+    margin-right: 459px;
+    margin-left:  5px;
+    font-size:18pt;
+}
+
+#quadro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    grid-column-gap: 29px;
+    margin-bottom: 30px;
+}
+.sublinha2{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.texto2{
+    padding-top: 10px;
+    width: 58%;
+}
+
+.imagem2{
+    width:42%;
+    border-radius: 10px;    
+}
+
+#noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 28vh;
+    padding-top: 10px;
+    grid-column-gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.sublinha3{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.texto3{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.imagem3{
+    width:100%;
+    border-radius: 10px;    
+}
+
+#divisao2{
+    display: flex;
+    display: grid;
+    grid-template-columns: 40fr 1fr ;
+}
+
+.sublinha4{
+    height: 120px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.texto4{
+    margin-left: 25px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.imagem4{
+    width: 215px;
+    border-radius: 10px;    
+}
+
+#l3-coluna2{
+    grid-area: 3cl2;
+}
+
+#bubli{
+    background-color: #F1F5F8;
+    width: 100%;
+    height: 105px;
+
+}
+#bublicidade{
+    color: rgb(192, 192, 192);
+    transform-origin: left;
+    transform: translate(7%, 70%) rotate(90deg);
+    margin:0px 0px 0px 0px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 9pt;
+}
+
+#textoOp2{
+    margin-left:  5px;
+    font-size:18pt;
+}
+
+.sublinha5{
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.texto5{
+    margin-left: 25px;
+    padding-left: 1px;
+    width: 100%;
+}
+
+.imagem4{
+    width: 215px;
+    height: 80%;
+    border-radius: 10px;    
+}
+
+.corSubtitulo3{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 0px;
+    color: #E2AC55 ;
+    margin: 0px 10px 0px 0px;
+    font-size: smaller;
+    text-align: left;
+}
+.corSubtitulo2{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 0px 0px 0px;
+    color: grey ;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+}
+.corTitulo3{
+    margin: 0;
+    padding: 0px 30px 0px 0px;
+    color: #575757;;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+}

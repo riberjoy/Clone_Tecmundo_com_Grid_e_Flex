@@ -1,0 +1,180 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.centraliza{
+    align-items: center;
+}
+
+#superior{
+    background: #F6F8FA;
+    height: 64%;
+}
+#inferior{
+    background: #E9EDF0;
+    height: 36%;
+}
+
+/* ___________________________ Linha 1 __________________________ */
+
+#itens{
+    margin-top: 25px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1r 1fr;
+    grid-template-areas: "col1 col2";
+    grid-column-gap: 10px;
+}
+
+#col1{
+    grid-area: col1;
+    
+}
+
+#subC{
+    display: grid;
+    grid-template-columns: 2fr 1r 1fr;
+    grid-template-areas: "i1 i2 i3 i4";
+
+}
+#subCol1{
+    grid-area: i1;
+}
+#subCol2{
+    grid-area: i2;
+}
+#subCol3{
+    grid-area: i3;
+}
+#subCol4{
+    grid-area: i4;
+}
+
+#col2{
+    grid-area: col2;
+    display: grid;
+    grid-template-columns: 2fr 1r 1fr;
+    grid-template-areas: "i21 i22";
+    grid-column-gap: 1px;
+}
+
+#sub1{
+    padding-left: 70px;
+    grid-area: i21;
+}
+#sub2{
+    grid-area: i22;
+}
+
+span{
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+a span{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+li{
+    list-style: none;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+#linkFooter li a{
+    color: #575757;
+    font-family: Source Sans Pro,sans-serif;
+    text-decoration: none;
+    display: inline-block; 
+    margin-bottom: 10px;
+}
+
+/* ___________________________ Linha 1 __________________________ */
+
+#cima{
+
+    height: 60%;
+    border-bottom: 1px solid #575757;
+}
+#cimaItens{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    grid-template-areas: "aa1 aa2 aa3";
+
+}
+
+
+#logoPatrocinador2{
+    grid-area: aa1;
+    display: flex;
+    justify-items: center;
+}
+
+#cimaItensLinks{
+    grid-area: aa2;
+    
+}
+
+.flutuaLink{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 2fr 1fr ;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flutuaLink li a{
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+    text-decoration: none;
+    display: inline-block; 
+    margin-bottom: 10px;
+}
+
+#cimaItensCop, strong{
+    grid-area: aa3;
+    margin-top: 20px;
+    font-family: Source Sans Pro,sans-serif;
+    color: #030303;
+    font-size: 13px;
+    text-align: right;
+    font-weight: 600;
+}
+
+#link2Footer li a{
+    font-family: Source Sans Pro,sans-serif;
+    text-decoration: none;
+}
+
+/* ___________________________ Linha 1 __________________________ */
+
+#baixo{
+    height: 40%;
+}
+.flutuaLink2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 3fr 2fr 7fr;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10pt;
+}
+
+.backa{
+    background: none;
+    padding-top: 30px;
+}
+
+.flutuaLink2 li a{
+    color: black;
+    font-family: Source Sans Pro,sans-serif;
+    text-decoration: none;
+    display: inline-block; 
+    margin-bottom: 10px;
+}
